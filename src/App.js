@@ -1,11 +1,17 @@
-import Component1 from './Components/Component1';
-import FunctionComponent2 from './Components/Component2';
+import 'bootstrap/dist/css/bootstrap.min.css';
+import './index.css'
+import { Header } from './Components/Header';
+import { Profile } from './Components/Profile';
+import { Projects } from './Components/Projects';
+import { Contact } from './Components/Contact';
 
 function App() {
   return (
     <div className="App">
-      <Component1 name="Bramono Triprastowo"/>
-      <FunctionComponent2 subtitle="Skills" />
+      <Header />
+      <Profile />
+      <Projects />
+      <Contact />
     </div>
   );
 }
